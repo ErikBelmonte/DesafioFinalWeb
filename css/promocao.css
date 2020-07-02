@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body{
+    background-color: rgb(136, 98, 15);
+    font-family: 'Roboto Slab', serif;
+}
+
+body h1{
+    color: #fff;
+    text-align: center;
+    margin-top: 50px;
+}
+
+body h3{
+    color: #fff;
+    text-align: center;
+    border-bottom: 2px solid rgb(31, 30, 29);
+    margin: 0px 700px 0px 700px;
+}
+
+
+header{
+    padding: 32px;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    background: rgb(31, 30, 29);
+}
+
+.name-header{
+    color: white;
+    width: 400px;
+    height: 0px;
+    margin-left: 60px;
+}
+
+.promo{
+    background-size: cover;
+    width: 700px;
+    height: 700px;
+    margin-left: 590px;
+    margin-top: 30px;
+    text-align: center;
+    background-image: url(../img/promocao1.jpg);
+    
+}
+
+.links{
+    text-align: center;
+}
+
+.links a{
+    color: white;
+    font-size: 18px;
+    line-height: 28px;
+    margin: 10px;
+    padding-bottom: 3px;
+    text-decoration: none;
+}
+
+.links a:hover{
+    color: rgb(168,124,41);
+    transition: color 200ms;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid rgb(0, 0, 0);
+    background-color: rgb(31, 30, 29);
+    padding: 50px 0;
+    align-items: center;
+    margin-top: 421px;
+}
+
+footer h4{
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+footer ul{
+    display: flex;
+    margin-bottom: 25px;
+
+}
+footer ul li{
+    margin-right: 10px;
+    text-decoration: none;
+    list-style: none;
+
+}
+footer ul li:last-child{
+    margin-right: 0;
+}
+footer ul li a{
+    color: #c3c63b;
+    font-size: 2rem;
+}
+footer p{
+    color: white;
+    text-align: center;
+}
